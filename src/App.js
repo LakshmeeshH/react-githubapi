@@ -51,7 +51,7 @@ class App extends Component {
           <div className="col s12 m6 push-m6">
             <div className="card ">
               <div className="card-image">
-                <img src={this.state.avatar_url} alt="Profile" />;
+                <img src={this.state.avatar_url} alt="Profile" />
                 <span className="card-title">{this.state.username}</span>
               </div>
               <div className="card-content">
